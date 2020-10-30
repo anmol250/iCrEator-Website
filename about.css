@@ -1,0 +1,13 @@
+h1 {
+    font-size:40px;
+    color:navy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-decoration: underline;
+}
+ h2 {
+     margin-right:-15px;
+     margin-left: -15px;
+     flex-wrap: nowrap;
+     display: flex;
+ }

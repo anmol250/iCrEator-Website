@@ -1,0 +1,33 @@
+.text-muted{
+    font-size:45px;
+}
+
+h1{
+    text-align: center;
+    color: turquoise;
+    text-decoration: underline;
+}
+
+.lead1{
+    font-size: 27px;
+    text-decoration: double;
+    background-color: tomato;
+
+}
+
+.source{
+    size: 25px;
+}
+
+.oppo{
+    animation:blinkingText 1.2s infinite;
+    background-color: turquoise;
+    font-size: 18px;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: #000; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+} 
